@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easy car rental</title>
+    <style>
+          nav{
+            background-color:bisque;
+        }
+        a{
+            color:navy;
+            text-align: center;
+            font-weight: bolder;
+        font-size: larger;
+        font-style: oblique;
+       
+        
+        }
+      h1{
+    background-color:rgb(232, 161, 202);
+    color:rgb(148, 43, 43);
+}  
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label, input, select {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .bottom{
+    color: blue;
+    background: whitesmoke;
+}
+    </style>
+<body>
+    <nav>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href="index.html">Home</a>
+ &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="about.html">About us</a>
+         &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="rent.html">Rent a car</a>
+    </nav>
+    <br>
+    <br>
+    <h1><center>CAR RENTAL PRICE</center></h1>
+    <br><br>
+    <div class="container">
+        <h1>Car Rental Booking</h1>
+        <form action="#">
+            <label for="car">Select Car:</label>
+            <select id="car" name="car">
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="sports">Sports Car</option>
+                <option value="luxury">Luxury</option>
+            </select>
+
+            <label for="pickup">Pick-up Date & Time:</label>
+            <input type="datetime-local" id="pickup" name="pickup">
+
+            <label for="return">Return Date & Time:</label>
+            <input type="datetime-local" id="return" name="return">
+
+            <label for="location">Pick-up Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter location">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="credit">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank">Bank Transfer</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+    <br><br>
+    <hr>
+    <br>
+    <div class="bottom">
+    @copyrightissue.com
+    <br>
+    <p>Easy car rental.com</p>
+    <br>
+    <p>devoleper of the web arfa</p>
+    <br>
+    <a href="">about-us</a>
+    <br>
+    <a href="tel+03002152138">🕿contact-us</a>
+    <br>
+    <a href="milto:bibiarfa567@email.com">🖂email-us</a>
+    </div>
+
+</body>
+</html>
